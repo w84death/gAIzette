@@ -1,0 +1,4 @@
+https://news.ycombinator.com/rss
+http://rss.slashdot.org/Slashdot/slashdotMain
+https://news.google.com/search?q=technology%20news&hl=en-US&gl=US&ceid=US%3Aen
+https://lobste.rs/rss
