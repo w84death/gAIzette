@@ -11,7 +11,13 @@ from datetime import datetime
 # - Model: Change 'llama3' below if you prefer a different model
 # - Output: Generates 'news.html' in the current directory
 
-def get_ollama_response(prompt, model='gemma3:12b'):
+def get_ollama_response(prompt, model=None):
+    if model is None:
+        if os.path.exists('model.txt'):
+            with open('model.txt', 'r') as f:
+                model = f.read().strip()
+        else:
+            model = 'gemma3:12b'
     """Query Ollama API for a response."""
     try:
         response = requests.post(
