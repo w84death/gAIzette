@@ -437,7 +437,7 @@ html = """
 <body>
     <header>
         <div class="header-content">
-            <h1><img src="gaizette.svg">gAIzette</img></h1>
+            <h1><img src="gaizette.svg" alt="gAIzette" /></h1>
             <div class="date-line">""" + datetime.now().strftime('%A, %B %d, %Y') + """</div>
             <div class="topics">
                 <span class="topics-label">Following:</span>
