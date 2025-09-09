@@ -82,3 +82,6 @@ Example output:
 🌐 Open 'news.html' in your browser to view your personalized news!
 ============================================================
 ```
+
+
+![Fake Office](office.jpg)
