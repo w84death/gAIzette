@@ -1,4 +1,4 @@
-# ![gAIzette](gaizette-logo.png)
+# gAIzette
 
 ![gAIzette screenshot](demo.png)
 
